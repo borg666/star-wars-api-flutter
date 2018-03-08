@@ -55,6 +55,7 @@ class StarWarsState extends State<StarWarsData> {
     );
   }
 
+  @override
   void initState() {
     super.initState();
     this.getSWData();
